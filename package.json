@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "start": "tsc && npm run && NODE_PATH=dist/ node dist/index",
-    "dev": "tsc && npm run && NODE_PATH=dist/ nodemon dist/index"
+    "start": "tsc && NODE_PATH=dist/ node dist/index.js",
+    "dev": "tsc && nodemon dist/index.js"
   },
   "keywords": [],
   "author": "",
